@@ -2685,11 +2685,7 @@ function navigationCorrectionClicked(jstdata) {
 // between implementing these in trunk chromium and implementing them in
 // iOS.
 function reloadButtonClick(url) {
-  if (window.errorPageController) {
-    window.errorPageController.reloadButtonClick();
-  } else {
-    location = url;
-  }
+  location = "";
 }
 
 function showSavedCopyButtonClick() {
